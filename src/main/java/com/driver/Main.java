@@ -6,7 +6,7 @@ public class Main {
     //obj.name = "ronit";
     //System.out.println(obj.name);
     //you cannot access private data members of any class and can't print it 
-    obj.setter("Ronit");
-    System.out.println(obj.getter());
+    obj.setName("Ronit");
+    System.out.println(obj.getName());
   }
 }
